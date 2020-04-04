@@ -3,6 +3,10 @@
     margin-top: 20px;
 }
 
+.section-title h2 {
+    text-transform: uppercase;
+}
+
 /*-- Navigation --*/
 .logo #main-logo, .logo #main-logo-mobile {
     max-width: 300px;
@@ -65,6 +69,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+/*-- Gallery Img Wrapper --*/
+.gallery-wrap {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
 }
 
 /*-- Mobile Style --*/
